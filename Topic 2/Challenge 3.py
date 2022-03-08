@@ -1,4 +1,4 @@
-# Program to calculate the cost of word processing based on a fixed rate card
+# Program to display seat category costs at Mount Panorama
 #----------------------------------------------------------------------------------------
 
 import sys
