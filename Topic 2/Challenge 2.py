@@ -1,8 +1,9 @@
 # Program to calculate the cost of word processing based on a fixed rate card
+#----------------------------------------------------------------------------------------
 
-# Declare constant variables
 import sys
 
+# Declare constant variables
 WORD_PER_MIN = 30
 CHARGE_8_LESS = 21.75
 CHARGE_8_PLUS = 25

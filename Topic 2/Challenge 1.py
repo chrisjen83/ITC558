@@ -7,7 +7,8 @@ import sys
 # user enter number to test
 input_val = input('Enter a whole number to test: ')
 
-# Detect if number entered is integer, if a float or text is entered program will exit.
+# Detect if number entered is integer which is either positive or negative.
+# If a float or text is entered program will exit.
 try:
     int(input_val)
 except ValueError:
