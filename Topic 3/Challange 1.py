@@ -10,3 +10,4 @@ while not user_input <= -1:
     user_input = int(input('Please enter a positive number: '))
 
 print('\nTotal sum of numbers entered are:', run_total)
+
