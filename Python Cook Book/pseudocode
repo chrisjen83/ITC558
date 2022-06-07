@@ -1,0 +1,13 @@
+
+GET month input from USER
+
+IF month IS >= 1
+    IF month IS <= 12
+        DISPLAY 'valid'
+    ELSE
+        DISPLAY 'invalid'
+
+    ENDIF
+ELSE
+    DISPLAY 'invalid'
+END IF
