@@ -1,12 +1,15 @@
 # Strings are immutable and cannot be modified. There is some exceptions to this rule
 
 # --------------------------------------------------------------------------------------------- #
+#                                      MODIFYING STRING                                         #
+# --------------------------------------------------------------------------------------------- #
 
-# Modifying Strings!!
 
 mystring = ' Christopher Jenkins\n'
 yourstring = 'Python Course'
 splitstring = '10/12/2022'
+
+# --------------------------------------------------------------------------------------------- #
 
 # Lower/Upper Case conversion, modifies the string inplace.
 
@@ -24,11 +27,15 @@ else:
 user_input = input('Enter a name: ').lower()
 print(user_input)
 
+# --------------------------------------------------------------------------------------------- #
+
 # lstrip, removes leading \n, \t and whitespaces. Modifies inplace
 
 # Example 1
 
 print(mystring.lstrip())
+
+# --------------------------------------------------------------------------------------------- #
 
 # rstrip, removes all trailing \n, \t and whitespace. Modifies inplace
 print(mystring.rstrip())
@@ -39,7 +46,9 @@ print(mystring.strip())
 
 # --------------------------------------------------------------------------------------------- #
 
-# Search and Replace String Methods, NEED TO MAKE COPIES OF STRINGS!!
+# --------------------------------------------------------------------------------------------- #
+#           Search and Replace String Methods, NEED TO MAKE COPIES OF STRINGS!!                 #
+# --------------------------------------------------------------------------------------------- #
 
 # end/startswith method which finds substrings in strings. Response is True if the substring is present.
 if mystring.endswith('\n'):
@@ -50,6 +59,7 @@ else:
 search = mystring.endswith('\n')
 print(search)
 
+# --------------------------------------------------------------------------------------------- #
 
 # Find, will find the first occurrence of the substring and return an index. If does not exist return -1
 
@@ -61,6 +71,8 @@ print(mystring[position])
 # Example 2 - Use the in keyword. This returns a boolean where find returns the index.
 result = 'h' in mystring
 print(f'in testing result: {result}')
+
+# --------------------------------------------------------------------------------------------- #
 
 # Replace, returns a new copy of the string with the replaced word. Syntax is existing string, replaced with.
 # Items must be strings. Partial matches for strings will work.

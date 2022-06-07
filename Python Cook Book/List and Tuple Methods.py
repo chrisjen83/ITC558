@@ -1,11 +1,15 @@
 # List Methods, lists are mutable and can be modified in place.
 
+# --------------------------------------------------------------------------------------------- #
+
 # Append to an existing list
 
 list1 = []
 add_to_list = 1
 list1.append(add_to_list)
 print(list1)
+
+# --------------------------------------------------------------------------------------------- #
 
 # Indexing, if index not found ValueError will occur
 
@@ -23,6 +27,8 @@ print(list_food.index(item))
 # Alternative
 item_index = list_food.index(item)
 print(f'Found the Food at Index: {item_index}')
+
+# --------------------------------------------------------------------------------------------- #
 
 # Insert
 # Example 1 Replacing item in list with index. Syntax is INDEX then value to replace with.
@@ -47,6 +53,8 @@ list4 = [5, 10, 22, 1, 11, 30]
 list4.sort()
 print(list4)
 
+# --------------------------------------------------------------------------------------------- #
+
 # Reverse
 
 list5 = [1, 2, 3, 4, 5, 6]
@@ -70,6 +78,10 @@ print(list5)
 del list5[3]
 print(list5)
 
+# --------------------------------------------------------------------------------------------- #
+#                                          FUNCTIONS                                            #
+# --------------------------------------------------------------------------------------------- #
+
 # Min and Max functions
 
 list6 = [10, 11, 20, 34, 100, 3]
@@ -82,6 +94,8 @@ print('Min number in list is:', min(list6))
 result_max = max(list6)
 result_min = min(list6)
 print(f'Max is {result_max} and Min is {result_min}')
+
+# --------------------------------------------------------------------------------------------- #
 
 # Sum function
 
