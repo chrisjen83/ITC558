@@ -89,3 +89,9 @@ print(mystring[:6])
 
 # Example 2
 print(mystring[2:len(mystring)])
+
+# Example 3 Reversing a string
+# Use the slice method and use [::-1]
+
+string1 = 'this is a string to reverse'
+print(string1[::-1])
